@@ -13,11 +13,11 @@ def get_requirements(file_path:str)->List[str]:
             requirements.remove(HYPEN_E_DOT)
 
         return requirements
-
+    
 
 setup(
     name='DiamondPricePrediction',
-    version='0.0.1',
+    version='0.0.3',
     author='Krish',
     author_email='krish.naik@pw.live',
     install_requires=get_requirements('requirements.txt'),
